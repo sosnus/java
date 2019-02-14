@@ -21,5 +21,11 @@ public class HelloWorld {
 
         // println() prints the following line to the output screen
         System.out.println("You entered: " + number);
+
+	number = number / 0;
+
+        System.out.println("You entered: " + number);
+
     }
 }
+
